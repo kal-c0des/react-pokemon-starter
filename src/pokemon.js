@@ -19,7 +19,7 @@ import snorlaxImg from "./assets/img/pokemon/snorlax.png";
 import laprasImg from "./assets/img/pokemon/lapras.png";
 import mewtwoImg from "./assets/img/pokemon/mewtwo.png";
 import lucarioImg from "./assets/img/pokemon/lucario.png";
-import gardevoirImg from "./assets/img/pokemon/gardevoir.png";
+import kirliaImg from "./assets/img/pokemon/kirlia.png";
 
 export default [
   {
@@ -111,11 +111,11 @@ export default [
     typeIcon: fightingTypeIcon,
   },
   {
-    name: "Gardevoir",
+    name: "Kirlia",
     type: "Psychic/Fairy",
     description:
       "It has the power to predict the future. Its power peaks when it is protecting its Trainer.",
-    icon: gardevoirImg,
+    icon: kirliaImg,
     typeIcon: fairyTypeIcon,
   },
 ];

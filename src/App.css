@@ -19,6 +19,45 @@ body {
   font-size: 8rem;
 }
 
+.chosen-pokemon-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 50vw;
+  margin-top: -4rem;
+  margin-bottom: 40px;
+}
+
+.chosen-pokemon-img {
+  height: 375px;
+  /* width: 100%; */
+  /* align-self: center; */
+  padding-left: 20px;
+}
+
+.chosen-pokemon-info {
+  text-align: center;
+  width: 75%;
+}
+
+.chosen-pokemon-name {
+  font-size: 48px;
+}
+
+.chosen-pokemon-type {
+  width: 40px;
+  height: 40px;
+  padding-bottom: 20px;
+}
+
+.chosen-pokemon-desc {
+  font-size: 24px;
+}
+
 .pokemon-cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
